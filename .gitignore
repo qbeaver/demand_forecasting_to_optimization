@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dataset files
+data/raw/
+data/processed/
+
+# Local environment
+.env
+.venv/
+venv/
+
+# Generated temporary files
+*.log
+.DS_Store
