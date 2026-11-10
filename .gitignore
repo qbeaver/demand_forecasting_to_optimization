@@ -231,3 +231,31 @@ venv/
 # Generated temporary files
 *.log
 .DS_Store
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw datasets
+data/raw/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
